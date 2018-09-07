@@ -1,3 +1,14 @@
+"""
+This is a somewhat simple linked list implementation for python 3. It has all the same functions as the builtin list, as well as 
+a few i derived or came up with that might be useful. At this point, this can effectively replace the builtin list. 
+There's not really anything the builtin can do that this can't aside from some optimisation and ease of use 
+(having to declare a new list like x = LinkedList() rather than x = []). Also the sorting needs work, it uses a bubble sort, which
+is okay until your list is long, but it does need worked on, I'll be looking into a few other sorting algorithms soon.
+Otherwise, this is --I think-- a good implementation of a linked list.
+
+author: u/nadir_, Nadir#2034, github.com/charliethomson
+"""
+
 
 class Node:
 	def __init__(self, data=None, index=None):
